@@ -10,8 +10,7 @@ public class KvadratickaRovnice {
         float a = sc.nextFloat();
         float b = sc.nextFloat();
         float c = sc.nextFloat();
-        double x1;
-        double x2;
+        
 
         if (a == 0) {
             System.out.println("a = 0, a proto nejedna se o kvadratickou rovnici");
@@ -31,8 +30,8 @@ public class KvadratickaRovnice {
                 System.out.println("Prvni koren: " + realniCast + " + " + imaginarniCast + "i");
                 System.out.println("Druhy koren: " + realniCast + " - " + imaginarniCast + "i");
             }else{
-                x1 = ((-b) + Math.sqrt(d)) / (2 * a);
-                x2 = ((-b) - Math.sqrt(d)) / (2 * a);
+                double x1 = ((-b) + Math.sqrt(d)) / (2 * a);
+                double x2 = ((-b) - Math.sqrt(d)) / (2 * a);
                 System.out.println("Resenim je: ");
                 System.out.println("Prvni koren: " + x1);
                 System.out.println("Druhy koren: " + x2);
