@@ -37,6 +37,5 @@ public class KvadratickaRovnice {
                 System.out.println("Druhy koren: " + x2);
             }
         }
-
     }
 }
