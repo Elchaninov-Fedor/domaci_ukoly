@@ -11,7 +11,7 @@ public class TestICO {
         Scanner sc = new Scanner(System.in);
         System.out.print("Zadejte ICO: "); //napr. 25596641
         int ico = sc.nextInt();
-        if (ico <= MINIMALNI_ICO) System.out.println("Zadali jste neplatne ICO");
+        if (ico < MINIMALNI_ICO) System.out.println("Zadali jste neplatne ICO");
         else{
             int n8 = ico / 10_000_000;
             int n7 = (ico % 10_000_000) / 1_000_000;
